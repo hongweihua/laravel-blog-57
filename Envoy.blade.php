@@ -1,6 +1,6 @@
-@servers(['web' => 'root@121.41.53.212'])
+@servers(['web' => 'root@118.24.249.222'])
 
 @task('deploy', ['on' => ['web'], 'confirm' => true])
-cd /var/www/laravel-blog-57
+cd /www/wwwroot/laravel-blog-57
 git pull
 @endtask
