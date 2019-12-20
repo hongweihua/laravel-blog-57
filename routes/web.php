@@ -37,7 +37,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', 'BlogController@index')->name('blog.home');
-Route::get('/blog/{slug}', 'BlogController@showPost')->name('blog.detail');
+Route::get('/blog/{id}', 'BlogController@showPost')->name('blog.detail');
 
 Route::get('contact', 'ContactController@showForm');
 Route::post('contact', 'ContactController@sendContactInfo');
