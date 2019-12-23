@@ -19,7 +19,7 @@ class PostResource extends JsonResource
             'title' => $this->title,
             'image' => url(config('blog.uploads.webpath') . '/' . $this->page_image),
             'content' => $this->content_html,
-            'author' => '学院君',
+            'author' => '华大大',
             'posted_at' => $this->publish_date,
             'views' => mt_rand(1, 100000),
             'votes' => mt_rand(1, 1000)
